@@ -1,0 +1,45 @@
+/*Stili  generali della pagina*/
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding-top:100px ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+/*header*/
+
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index:10;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-items{
+    display: flex;
+    align-items: center;
+}
+
+.item-pattern{
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px gray solid;
+}
+
