@@ -28,12 +28,16 @@ body{
     height: 100px;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
 .header-items{
     display: flex;
     align-items: center;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .item-pattern{
@@ -80,62 +84,67 @@ body{
 nav{
     background-color: rgb(44, 44, 44);
     display: flex;
-    height: 75px;
+    height: 100px;
     position: fixed;
     z-index: 11;
     width: 100%;
     bottom: 0;
+    left: 0;
+    right: 0;
     font-size: 16px;
     justify-content: space-between;
 }
 
 #container_footer{
     display: flex;
-    margin: auto;
-    width: 100%;
+    margin: auto; 
     color: white;
-    align-items: center;
 }
 
 .function{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 .fa-solid-bottom{
     font-size: 40px;
-    margin: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .arrow{
     font-size: 15px;
     margin-right: 10px;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .fa-share-from-square{
     color: green;
 }
 
+.text{
+    display: flex;
+}
+
 /*end meeting*/
 
 .box{
     display: flex;
-    flex-direction: row;
     width: 200px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(87, 87, 87);
-    
+    background-color: rgb(87, 87, 87); 
 }
 
 .end-meeting{
     text-align: center;
     color: rgb(255, 0, 0);
     flex-direction: row;
+    display: flex;
 }
