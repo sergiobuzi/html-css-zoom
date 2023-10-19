@@ -1,7 +1,7 @@
 /*Stili  generali della pagina*/
 
 body{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding-top:100px ;
     padding-bottom: 100px;
@@ -34,18 +34,19 @@ body{
 .header-items{
     display: flex;
     align-items: center;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     align-items: flex-start;
     justify-content: flex-end;
 }
 
 .item-pattern{
-    background-color: grey;
+    background-color: #4a4b4b;
     padding: 5px;
     margin: 10px;
     border-radius: 10px;
-    border: 1px gray solid;
+    border: 1px #4a4b4b solid;
+    font-size: 25px;
 }
 
 /*main*/
@@ -82,31 +83,37 @@ body{
 /*footer*/
 
 nav{
-    background-color: rgb(44, 44, 44);
+    background-color: #222222;
     display: flex;
     height: 100px;
     position: fixed;
     z-index: 11;
-    width: 100%;
     bottom: 0;
     left: 0;
     right: 0;
     font-size: 16px;
     justify-content: space-between;
+    width: 100%;
 }
 
-#container_footer{
+.container_footer{
     display: flex;
     margin: auto; 
     color: white;
+    width: 50%;
+}
+
+.container_footer2{
+    display: flex;
+    margin: auto; 
+    color: white;
+    width: 90%;
 }
 
 .function{
-    display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
 
 .fa-solid-bottom{
@@ -128,9 +135,6 @@ nav{
     color: green;
 }
 
-.text{
-    display: flex;
-}
 
 /*end meeting*/
 
